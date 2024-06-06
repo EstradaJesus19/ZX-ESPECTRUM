@@ -29,8 +29,12 @@
 
 #include "ESPectrum.h"
 
+const int LED = 13;
+
 void setup()
 {
+    pinMode(LED,OUTPUT);
+    digitalWrite(LED,HIGH);
     ESPectrum::setup();
 }
 
