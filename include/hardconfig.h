@@ -96,8 +96,8 @@
 // - COLOR_14B: 14 bit color (RRRRRGGGGGBBBB), using 14 pins and 2 bytes per pixel
 ///////////////////////////////////////////////////////////////////////////////
 
-//#define COLOR_3B
-#define COLOR_6B
+#define COLOR_3B
+//#define COLOR_6B
 // #define COLOR_14B
 
 // check: only one must be defined
